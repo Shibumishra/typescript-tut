@@ -1,3 +1,7 @@
+
+// Typescript run =:  tsc indexedDB.ts -- watch
+
+
 export { }
 // class App {
 //     test(){

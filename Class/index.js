@@ -2,14 +2,14 @@
 exports.__esModule = true;
 var App = /** @class */ (function () {
     class App {
-        constructor() {
-            this.name = "shibu Mishra";
+        constructor(name) {
+            this.name = name;
         }
         getName() {
-            console.log(this.name);
+            return this.name;
         }
     }
     return App;
 }());
-var a1 = new App();
-a1.getName();
+var a1 = new App("Satyabrat Kumar");
+console.log(a1.getName());

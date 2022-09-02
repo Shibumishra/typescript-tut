@@ -1,10 +1,13 @@
-export {}
-class App{
-    name = "shibu Mishra"
-    getName(){
-        console.log(this.name);
+export { }
+class App {
+    name: string;
+    constructor(name: string) {
+        this.name = name;
+    }
+    getName(): string {
+        return this.name;
     }
 }
 
-var a1 = new App();
-a1.getName();
+var a1 = new App("Satyabrat Kumar");
+console.log(a1.getName());
